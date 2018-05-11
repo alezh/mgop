@@ -1,8 +1,8 @@
 package mgop
 
 import (
-	"gopkg.in/mgo.v2"
 	"sync/atomic"
+	"github.com/globalsign/mgo"
 )
 
 type sessionWrapper struct {
